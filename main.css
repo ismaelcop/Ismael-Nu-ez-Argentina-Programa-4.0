@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+}
+
+form {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    box-sizing: border-box 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+footer {
+    margin: 10px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-align: right;
+    font-size: 2rem;
+    text-shadow: 4px 5px 10px black;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    cursor: alias;
+    padding: 10px;
+    margin: 5px;
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00DDFF
+    );
+    /**background-color: cadetblue;
+    **/color: white;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px black;
+    width: auto;
+}
+
+.enviar {
+    height: auto;
+    width: auto;
+    min-width: 100px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: darkorchid;
+    padding: 12px;
+    transition-duration: 0.2s;
+}
+
+center {
+    background: linear-gradient(to bottom right, red, blue);
+    padding: 20px;
+    border-radius: 4px;
+    width: auto;
+}
+
+p {
+    margin-right: 10px;
+    width: auto;
+    color: black;
+    text-shadow: 3px 3px 8px grey;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    padding: 20px;
+    border-radius: 70px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#principal_txt {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.container {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#whatsapp {
+    border-style: hidden;
+    box-shadow: none;
+    padding: 0px;
+    margin-bottom: 5px;
+    color: forestgreen;
+    background: none;
+    font-size: 50px;
+}
+
+#wps {
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-border {
+    display: flex;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    box-shadow: 2px 2px 50px green;
+    justify-content: center;
+    width: auto;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+b{
+    font-family: 'Roboto', sans-serif;  
+    color: brown;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+#comentario{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
